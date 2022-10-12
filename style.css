@@ -85,18 +85,20 @@ footer .footer-cols{
 display: grid;
 grid-gap: 20px;
 grid-template-columns: repeat(4, 1fr);
-padding: 2rem;
+padding: 5rem;
 text-align: left;
 font-size: 14px;
 }
 footer .footer-cols ul{
  list-style-type: none;   
+ font-size: 25px;
 }
 footer .footer-cols ul li:first-child{
-    font-size: 1.2rem;
+    font-size: 30px;
+    font-weight: bold;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
-    border-bottom: #444 solid 1px;
+    border-bottom: white solid 1px;
 }
 footer .footer-bottom{
     background-color: rgb(240, 100, 49);
